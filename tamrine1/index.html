@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Jalaseye_8</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script>
+$(document).ready(function(){
+    $(".btn_posht").click(function(){
+    $(".box2").slideDown();
+    $(".box2").width("500px");
+    $(".box2").height("500px");
+    $(".box2").margin("-5px");
+    $(".h2").css({color:"black"});
+    $(".h1").css({color:"black"});
+    $(".h4").css({color:"black"});
+    $(".h1").css({fontSize: 20});
+    $(".h1").margin("-200px;");
+    $(".h4").margin("100");
+   
+  });
+  
+});
+</script>
+
+<script>
+ $(document).ready(function(){
+    $(".btn_jolo").click(function(){
+    $(".box2").hide();
+    $(".h2").css({color:"white"});
+    $(".h1").css({color:"white"});
+    $(".h1").css({fontSize:"30px"});
+    $(".h4").css({color:"white"});
+    $(".h4").margin("200");
+   
+});
+});
+</script>
+
+
+<style>
+
+.box1{
+background-color: rgb(220, 218, 228);
+width: 500px;
+height: 500px;
+box-shadow:2px 2px ;
+border-top: 2px solid black;
+border-left: 2px solid black;
+border-radius: 100%;
+border-style:double;
+border-style: dotted;
+border-color: black;
+box-shadow: 10px 10px;
+background-image: url('haram.jpeg');
+
+}
+.box2{
+width: 500px;
+height: 500px;
+box-shadow:2px 2px ;
+border-radius: 100%;
+border-style:double;
+border-style: dotted;
+border-color: black;
+background-image: url('poshtesekeye_jadid.jpg');
+margin-top: -500px;
+display: none;
+
+}
+
+img{
+  border-radius: 100px;
+  margin-top: -150px;
+  margin-left: 150px;
+  background-repeat: no-repeat;
+}
+
+h1{
+    width: 300px;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 140px;
+    color: antiquewhite;
+}
+h2{
+    width: 300px;
+    height: 100px;
+    margin-top: -50px;
+    margin-left: 190px;
+    color: aliceblue;
+}
+h4{
+    width: 300px;
+    height: -100px;
+    color: aliceblue; 
+    margin-top: -10px;
+    margin-left: 150px;
+
+   
+}
+.h4 + h4{
+    color:white;
+}
+
+.btn_posht{
+    border: cyan;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: yellow;
+    margin-left: 170px;
+    margin-top: 51px;
+}
+.btn_jolo{
+    border: cyan;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: yellow;
+    margin-left: 170px;
+    margin-top: 51px;
+}
+
+
+
+</style>
+
+
+</head>
+<body>
+    
+
+
+
+<div class="box1">
+        <h1 class="h1">بانک مرکزی جمهوری <span style="margin-left: 50px">اسلامی ایران</span></h1><br>
+        <br>
+        <h2 class="h2"><span style="margin-left: 20px">سکه 50 ریالی</span></h3><br>
+        <br>
+        <br>
+        <img src="khamenei.jpg"  width="200" height="200"  alt="khamenei">
+        <h4 class="h4">  سال یکهزار و چهارصد هجری شمسی</h4>
+        <h4>  1400</h4>
+
+        <br>
+        <br>
+
+   
+
+    <div class="box2">
+    </div>
+    </div>
+
+  
+
+
+   <button class="btn_posht" type="button">پشت سکه</button>
+   <button class="btn_jolo" type="button">جلو سکه </button>
+
+
+
+</body>
+</html>
